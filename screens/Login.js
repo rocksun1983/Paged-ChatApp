@@ -44,12 +44,12 @@ export default function Login({ navigation }) {
         onChangeText={(text) => setPassword(text)}
       />
       <TouchableOpacity style={styles.button} onPress={onHandleLogin}>
-        <Text style={{fontWeight: 'bold', color: '#fff', fontSize: 18}}> Log In</Text>
+        <Text style={{fontWeight: 'bold', color: '#e9e7f0ff', fontSize: 20}}> Log In</Text>
       </TouchableOpacity>
       <View style={{marginTop: 20, flexDirection: 'row', alignItems: 'center', alignSelf: 'center'}}>
         <Text style={{color: 'gray', fontWeight: '600', fontSize: 14}}>Don't have an account? </Text>
         <TouchableOpacity onPress={() => navigation.navigate("Signup")}>
-          <Text style={{color: '#f57c00', fontWeight: '600', fontSize: 14}}> Sign Up</Text>
+          <Text style={{color: '#32066dff', fontWeight: '600', fontSize: 20}}> Sign Up</Text>
         </TouchableOpacity>
       </View>
       </SafeAreaView>
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: "orange",
+    color: "blue",
     alignSelf: "center",
     paddingBottom: 24,
   },
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 30,
   },
   button: {
-    backgroundColor: '#f57c00',
+    backgroundColor: '#090766ff',
     height: 58,
     borderRadius: 10,
     justifyContent: 'center',

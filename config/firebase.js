@@ -4,15 +4,14 @@ import { getFirestore } from "firebase/firestore";
 import Constants from "expo-constants";
 // Firebase config
 const firebaseConfig = {
-  apiKey: Constants.expoConfig.extra.apiKey,
-  authDomain: Constants.expoConfig.extra.authDomain,
-  projectId: Constants.expoConfig.extra.projectId,
-  storageBucket: Constants.expoConfig.extra.storageBucket,
-  messagingSenderId: Constants.expoConfig.extra.messagingSenderId,
-  appId: Constants.expoConfig.extra.appId,
-  databaseURL: Constants.expoConfig.extra.databaseURL,
-  //   @deprecated is deprecated Constants.manifest
+  apiKey: "AIzaSyAKEbwIPEsUdGiRQDKEEmOGxebz6BNEraE",
+  authDomain: "paged-chatapp.firebaseapp.com",
+  projectId: "paged-chatapp",
+  storageBucket: "paged-chatapp.firebasestorage.app",
+  messagingSenderId: "948408544454",
+  appId: "1:948408544454:web:70919c88c671697cb87bc7"
 };
+
 // initialize firebase
 initializeApp(firebaseConfig);
 export const auth = getAuth();

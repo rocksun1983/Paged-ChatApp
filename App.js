@@ -24,7 +24,7 @@ return (
 function ChatStack() {
   return (
     <Stack.Navigator defaultScreenOptions={Home}>
-      <Stack.Screen name='Home' component={Home} />
+      <Stack.Screen name='Paged Chat Home Page' component={Home} />
       <Stack.Screen name='Chat' component={Chat} />
     </Stack.Navigator>
   );
